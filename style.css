@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+}
+.welcome{
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+   
+}
+.flexible_container{
+    display: flex;
+    margin-bottom: 150px;
+}
+.f-half{
+    width: 50%;
+    text-align: left;
+    font-family: Poppins, sans-serif;
+    margin-left: 30px;
+}
+h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+span{
+    color: #ffa600;
+}
+a{
+    text-decoration: none;
+    padding: 10px 40px;
+    color: white;
+    background-image: radial-gradient(orange, tomato);
+    border-radius: 5px;
+}
+.l-half{
+    width: 50%;
+}
+.l-half img{
+    width: 80%;
+    height: 90%;
+}
