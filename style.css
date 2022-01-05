@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    font-family: Poppins, sans-serif;
 }
 .welcome{
     display: flex;
@@ -15,7 +16,7 @@ body{
 .f-half{
     width: 50%;
     text-align: left;
-    font-family: Poppins, sans-serif;
+    
     margin-left: 30px;
 }
 h1{
@@ -31,6 +32,10 @@ a{
     color: white;
     background-image: radial-gradient(orange, tomato);
     border-radius: 5px;
+
+}
+p{
+    margin-bottom: 50px;
 }
 .l-half{
     width: 50%;
@@ -38,4 +43,26 @@ a{
 .l-half img{
     width: 80%;
     height: 90%;
+}
+.dream{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.box{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.text{
+    padding-left: 20px;
+}
+.box-1{
+    width: 40%;
+    margin: 0 10%;
+    box-shadow: 10px 10px 15px gray;
+}
+.box-2{
+    width: 40%;
+    box-shadow: 10px 10px 15px gray;
 }
