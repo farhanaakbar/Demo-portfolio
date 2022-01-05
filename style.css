@@ -66,3 +66,16 @@ p{
     width: 40%;
     box-shadow: 10px 10px 15px gray;
 }
+#brdr1{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan) ;
+    border-image-slice: 1;
+}
+#brdr2{
+    border-left: 5px solid;
+    border-image: linear-gradient(salmon, tomato) ;
+    border-image-slice: 1;
+}
+.ftr{
+    text-align: center;
+}
